@@ -1,0 +1,103 @@
+.wd-body {
+    background-color: black;
+    margin-left: 16px;
+    font-family: Arial;
+    color: white;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-search-bar {
+    padding-left: 16px;
+    padding-top: 5px;
+}
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-search-input {
+    background-color: rgba(33,35,39,255);
+    width: 75%;
+    color: white;
+    height: 32px;
+    float: left;
+    text-indent: 45px; /*https://stackoverflow.com/questions/4919680/html5-placeholder-css-padding*/
+}
+
+.wd-search-image {
+    position: absolute;
+    top: 17px;
+    left: 44px;
+    height: 32px;
+}
+
+.wd-settings-image {
+    float: right;
+    padding-right: 12px;
+    padding-top: 0px;
+    height: 10px;
+}
+
+.wd-clear {
+    clear: both;
+}
+
+.wd-nav-bar {
+    padding-left: 16px;
+}
+
+.wd-link-highlight {
+    float: left;
+    padding: 15px;
+    color: rgb(29,161,242);
+    font-size: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(29,161,242);
+}
+
+.wd-link {
+    float: left;
+    padding: 15px;
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+}
+
+.wd-post {
+    padding-left: 16px;
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-style: solid;
+}
+
+.wd-c-post-topic {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    padding: 3px;
+}
+
+.wd-c-post-title {
+    padding: 3px;
+}
+
+.wd-news-post {
+    padding-left: 16px;
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-style: solid;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-d-post-topic {
+    font-size: 13px;
+    color: white;
+    padding: 3px;
+}
+
+.wd-d-image {
+    float: right;
+    padding-right: 16px;
+    padding-top: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}

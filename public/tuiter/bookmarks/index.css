@@ -1,0 +1,114 @@
+.wd-body {
+    background-color: black;
+    margin-left: 16px;
+    font-family: Arial;
+    color: white;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-bookmark {
+    color: white;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.wd-bookmark-handle {
+    color: darkgray;
+    font-size: 13px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-width: 1px;
+}
+
+.wd-avatar-container {
+    padding-left: 16px;
+    padding-top: 12px;
+}
+.wd-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-tweet {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.wd-tweet-content {
+    font-size: 15px;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+.wd-author {
+    color: white;
+}
+
+.wd-author-handle {
+    color: lightgray;
+}
+
+.wd-tweet-paragraph {
+    color: white;
+    max-width: 506px;
+    padding-top: 4px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+}
+
+.wd-tweet-url-display {
+    width: 504px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 25px;
+}
+
+.wd-tweet-image {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-bottom: 12px;
+}
+.wd-tweet-url-title-text {
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    max-width: 500px;
+}
+
+.wd-tweet-url-all-text {
+    color: darkgray;
+    padding: 12px;
+    max-width: 500px;
+}
+
+.wd-impressions {
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-impression-img {
+    width: 22px;
+}
+
+.wd-impression-reply-rt {
+    padding-left: 12px;
+    padding-bottom: 12px;
+    color: lightgray;
+    display: inline-block;
+}
+
+.wd-impression-like {
+    padding-left: 12px;
+    padding-bottom: 12px;
+    color: red;
+    display: inline-block;
+}
