@@ -3,18 +3,20 @@
 }
 
 .wd-link-highlight {
-    float: left;
-    padding: 16px;
-    color: rgb(29,161,242);
+    /*padding-left: 16px;*/
+    color: #1DA1F2;
     font-size: 15px;
+    border-bottom-width: 3px;
     border-bottom-style: solid;
     border-bottom-color: #1DA1F2;
     font-weight: bold;
 }
 
+.nav-link {
+    color: rgb(110, 118, 125);
+}
+
 .wd-link {
-    float: left;
-    padding: 16px;
     color: rgb(110, 118, 125);
     font-size: 15px;
     font-weight: bold;
