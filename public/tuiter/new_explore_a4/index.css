@@ -1,0 +1,79 @@
+.wd-tweet-button {
+   border-radius: 20px;
+   width: 100%;
+   padding: 0px;
+   text-align: center;
+}
+
+.wd-rounded-corners-all-around {
+    height: 40px;
+    border-radius: 50px;
+    width: 100%;
+    border-left: 0;
+}
+
+.wd-main {
+    position: relative;
+}
+
+.wd-main-image {
+    width: 100%
+}
+
+.wd-overlay-text {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+}
+
+.wd-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-post-topic {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+.wd-author-handle {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.wd-time {
+    display: inline-block;
+    color: rgb(110, 118, 125);
+}
+
+.wd-post-image {
+    float: right;
+    padding-right: 16px;
+    padding-top: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.wd-img-avatar {
+    width: 100%;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.input-group-prepend {
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 50px;
+    border-right: 0;
+}
+.input-group-text {
+    border: 0;
+    height: 35px;
+    width: 100%;
+}
