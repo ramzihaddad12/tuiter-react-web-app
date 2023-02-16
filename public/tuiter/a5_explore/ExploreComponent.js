@@ -5,9 +5,10 @@ const ExploreComponent = () => {
         <div class="border border-light">
             <div class="row">
              <div class="col-12 col-sm-11">
+             
                 <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text bg-transparent"><i class="fa fa-search"></i></span>
+                    <div class="input-group-prepend bg-white">
+                        <span class="input-group-text bg-transparent"><i class="fa fa-search" style="color:darkgray"></i></span>
                     </div>
                     <input class="form-control wd-rounded-corners-all-around" type="text" placeholder="Search Tuiter" name="search">
                 </div>

@@ -3,7 +3,7 @@ const PostSummaryItem = (post) => {
     <div class="list-group-item list-group-item-action border-0">
         <div class="wd-post ">
             <div>
-                <div class="wd-post-topic">
+                <div class="wd-post-topic-in-list">
                     ${post.topic}
                 </div>
                 
@@ -14,12 +14,12 @@ const PostSummaryItem = (post) => {
                 <div class="wd-time">
                     - ${post.time}
                 </div>
-                 
+                </br>
                 <div class="wd-author-handle">
                     ${post.title}
                 </div>
                 
-                <div class="wd-post-topic">
+                <div class="wd-post-topic-in-list">
                     ${post.tweets === undefined ? '': post.tweets + ' Tweets'}
                 </div>
             </div>

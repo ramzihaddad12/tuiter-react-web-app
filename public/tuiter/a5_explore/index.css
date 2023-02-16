@@ -55,7 +55,7 @@
 
 .wd-overlay-text {
     font-size: 40px;
-    color: white;
+    color: black;
     font-weight: bold;
     position: absolute;
     bottom: 0px;
@@ -65,6 +65,13 @@
 .wd-post {
     display: flex;
     justify-content: space-between;
+}
+
+.wd-post-topic-in-list {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    padding-bottom: 3px;
+    padding-top: 3px;
 }
 
 .wd-post-topic {

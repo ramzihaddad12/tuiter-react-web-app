@@ -1,10 +1,10 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (active) => {
  return(`
    <div class="list-group border-0">
                 <a class="list-group-item" href="/"><i class="fab fa-twitter"></i></a>
 
-                <div class="list-group-item list-group-item-action border-0">
-                    <div class="row">
+                <a href="../HomeScreen/index.html" class="list-group-item ${active == 'home' ? 'active' : ''} list-group-item-action border-0">
+                    <div  class="row">
                         <div class="col-12 col-xl-2 col-xxl-2">
                             <i class="fas fa-home"></i>  
                         </div>
@@ -12,9 +12,9 @@ const NavigationSidebar = () => {
                             Home
                         </div>
                     </div>
-                </div>
+                </a>
                 
-                <div class="list-group-item active list-group-item-action border-0">
+                <a href="../ExploreScreen/index.html" class="list-group-item ${active == 'explore' ? 'active' : ''} list-group-item-action border-0">
                     <div class="row">
                         <div class="col-12 col-xl-2 col-xxl-2">
                             <i class="fas fa-hashtag"></i>  
@@ -23,9 +23,9 @@ const NavigationSidebar = () => {
                             Explore
                         </div>
                     </div>
-                </div>
+                </a>
                 
-                <div class="list-group-item list-group-item-action border-0">
+                <a class="list-group-item ${active == 'notifications' ? 'active' : ''} list-group-item-action border-0">
                     <div class="row">
                         <div class="col-12 col-xl-2 col-xxl-2">
                             <i class="fas fa-bell"></i>  
@@ -34,9 +34,9 @@ const NavigationSidebar = () => {
                             Notifications
                         </div>
                     </div>
-                </div>
+                </a>
                 
-                <div class="list-group-item list-group-item-action border-0">
+                <a class="list-group-item ${active == 'messages' ? 'active' : ''} list-group-item-action border-0">
                     <div class="row">
                         <div class="col-12 col-xl-2 col-xxl-2">
                             <i class="fas fa-envelope"></i>  
@@ -45,9 +45,9 @@ const NavigationSidebar = () => {
                             Messages
                         </div>
                     </div>
-                </div>
+                </a>
                 
-                <div class="list-group-item list-group-item-action border-0">
+                <a class="list-group-item ${active == 'bookmarks' ? 'active' : ''} list-group-item-action border-0">
                     <div class="row">
                         <div class="col-12 col-xl-2 col-xxl-2">
                             <i class="fas fa-bookmark"></i>  
@@ -56,9 +56,9 @@ const NavigationSidebar = () => {
                             Bookmarks
                         </div>
                     </div>
-                </div>
+                </a>
                 
-                <div class="list-group-item list-group-item-action border-0">
+                <a class="list-group-item ${active == 'top-articles' ? 'active' : ''} list-group-item-action border-0">
                    <div class="row">
                         <div class="col-12 col-xl-2 col-xxl-2">
                             <i class="fas fa-newspaper"></i>
@@ -67,9 +67,9 @@ const NavigationSidebar = () => {
                             Top Articles
                         </div>
                     </div>
-                </div>
+                </a>
                 
-                <div class="list-group-item list-group-item-action border-0">
+                <a class="list-group-item ${active == 'profile' ? 'active' : ''} list-group-item-action border-0">
                    <div class="row">
                         <div class="col-12 col-xl-2 col-xxl-2">
                             <i class="fas fa-user"></i>  
@@ -78,9 +78,9 @@ const NavigationSidebar = () => {
                             Profile
                         </div>
                     </div>
-                </div>
+                </a>
                 
-                <div class="list-group-item list-group-item-action border-0">
+                <a class="list-group-item ${active == 'more' ? 'active' : ''} list-group-item-action border-0">
                    <div class="row">
                         <div class="col-12 col-xl-2 col-xxl-2">
                             <i class="fas fa-comment-dots"></i>  
@@ -89,7 +89,7 @@ const NavigationSidebar = () => {
                             More
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="d-grid mt-2">
               <a href="tweet.html" class="btn btn-primary btn-block rounded-pill">Tweet</a>
