@@ -1,0 +1,19 @@
+.wd-flex-impressions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkgrey;
+}
+
+.wd-tweet-main-image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.wd-tweeter {
+    display: inline-block;
+}
+
+.wd-icon-color {
+    color: #1DA1F2;
+}
