@@ -1,16 +1,15 @@
 import PostItem from "./post-item";
 import posts from "./posts.js"
+import TuitsList from "../tuits/TuitsList";
+import WhatsHappening from "./whats-happening";
 
 
 const HomeComponent = () => {
    return (
-           <div className="list-group border border-light">
-            
-           {
-            posts.map(post => <PostItem
-           key={post.title} post={post}/>)
-         }
-
+           <div>
+               <h1>Home</h1>
+               <WhatsHappening/>
+               <TuitsList/>
            </div>
 ); }
 
