@@ -8,9 +8,12 @@ import HomeComponent from "./home";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./reducers/tuits-reducer";
 import feedTuitsReducer from "./reducers/feed-tuits-reducer";
+import profileReducer from "./reducers/profile-reducer";
 import { configureStore } from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
-const store = configureStore({reducer: {who: whoReducer, tuits: tuitsReducer, feedTuits: feedTuitsReducer}});
+import ProfileComponent from "./profile";
+import EditProfile from "./edit-profile";
+const store = configureStore({reducer: {who: whoReducer, tuits: tuitsReducer, feedTuits: feedTuitsReducer, profile: profileReducer}});
 
 function Tuiter() {
  return (
@@ -24,6 +27,8 @@ function Tuiter() {
         <Routes>
 
          <Route index="/"    element={<HomeComponent/>}/>
+         <Route path="profile"    element={<ProfileComponent/>}/>
+         <Route path="edit-profile"    element={<EditProfile/>}/>
          <Route path="home"    element={<HomeComponent/>}/>
          <Route path="explore" element={<ExploreComponent/>}/>
        </Routes>

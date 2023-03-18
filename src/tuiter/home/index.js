@@ -1,5 +1,3 @@
-import PostItem from "./post-item";
-import posts from "./posts.js"
 import TuitsList from "../tuits/TuitsList";
 import WhatsHappening from "./whats-happening";
 
