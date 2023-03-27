@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {useDispatch} from "react-redux";
 import {tuitToggle} from "../reducers/feed-tuits-reducer";
-
+import {updateTuitThunk} from "../../services/tuits-thunks"
 const TuitStats = (
     {
         tuit =
@@ -40,12 +40,15 @@ const TuitStats = (
 
 
             <div>
-                <button onClick={() =>
-                    toggleTuitLike(tuit)} className="btn">
-                <i style={{
-                    // Ternary operator to conditionally set color
-                    color: tuit.liked ? 'red' : 'lightgrey'
-                }}  className="fa-solid fa-heart"></i> </button> {tuit.likes}
+                    <i onClick={() => dispatch(updateTuitThunk({
+                        ...tuit,
+                        likes: tuit.likes + 1
+                    }))}
+                       style={{
+                           // Ternary operator to conditionally set color
+                           color: tuit.liked ? 'red' : 'lightgrey'
+                       }}
+                       className="bi bi-heart-fill me-2 text-danger"></i> {tuit.likes}
 
             </div>
 
